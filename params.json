@@ -1,0 +1,6 @@
+{
+  "name": "Ripink",
+  "tagline": "A vanilla-js material-design ripple ink effect library",
+  "body": "## Usage\r\n### 1. Include the ripink.js\r\n```html\r\n<script src=\"/path/to/ripink.js\"></script>\r\n```\r\n### 2. Commit the elements being affected by this library\r\n```html\r\n<script>\r\nripink.apply(\"css-selector\", \"css-color\")\r\n</script>\r\n```\r\n### 3. Enjoy!\r\n:thumbsup:\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
