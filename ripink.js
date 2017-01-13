@@ -1,6 +1,6 @@
 var ripink = function(){}
 ripink.apply = function(ELEMENTS, COLOR) {
-    var STYLE = ELEMENTS + " {overflow:hidden;position:relative} .js-ripink-ink{display:block;position:absolute;background:" + COLOR + ";border-radius:100%;transform:scale(0)} .js-ripink-ink.js-ripink-animate {animation: js-ripink-ripple 0.65s linear;} @keyframes js-ripink-ripple {100% {opacity: 0.25; transform: scale(2.5);}";
+    var STYLE = ELEMENTS + " {overflow:hidden;position:relative} "+ELEMENTS+" .js-ripink-ink{display:block;position:absolute;background:" + COLOR + ";border-radius:100%;transform:scale(0)} "+ELEMENTS+" .js-ripink-ink.js-ripink-animate {animation: js-ripink-ripple 0.65s linear;} @keyframes js-ripink-ripple {100% {opacity: 0.25; transform: scale(2.5);}";
     head = document.head || document.getElementsByTagName('head')[0];
     style = document.createElement('style');
     style.type = 'text/css';
